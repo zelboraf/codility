@@ -1,21 +1,37 @@
 package com.codility;
 
-import com.codility.lesson_1.BinaryGap;
-import com.codility.lesson_3.TapeEquilibrium;
+import com.codility.lesson_1_Iterations.BinaryGap;
+import com.codility.lesson_2_Arrays.CyclicRotation;
+import com.codility.lesson_2_Arrays.OddOccurrencesInArray;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // Lesson 1
+        // Lesson 1: Iterations
 
-        // BinaryGap  https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+        // Task 1: BinaryGap  https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 
 //        int N = 529;
-//        int s = BinaryGap.solution(N);
-//        System.out.println("\nSolution: " + s);
+//        System.out.println("\nSolution: " + BinaryGap.solution(N));
 
-        // Lesson 2
+
+        // Lesson 2: Arrays
+
+        // Task 1: OddOccurrencesInArray   https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+
+//        int[] A = {9, 3, 9, 3, 9, 7, 9};
+//        System.out.println("\nSolution: " + OddOccurrencesInArray.solution(A));
+
+        // Task 2: CyclicRotation   https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+
+        int[] A = {3, 8, 9, 7, 6};
+        int K = 3;
+        int[] B = CyclicRotation.solution(A, K);
+        for (int i = 0; i < B.length; i++) {
+            System.out.println(" " + B[i]);
+        }
+
 
         // Lesson 3
 
