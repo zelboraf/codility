@@ -2,12 +2,13 @@ package com.codility.lesson_2_Arrays;
 
 public class CyclicRotation {
 	public static int[] solution(int[] A, int K) {
-		if (K == 0 || K == A.length % K) {
+		int lng = A.length;
+		int tmp;
+
+		if (lng <= 1 || K == 0 || K % lng == 0) {
 			return A;
 		}
 
-		int lng = A.length;
-		int tmp;
 		do {
 			tmp = A[lng - 1];
 			for (int i = lng - 1; i > 0; i--) {
