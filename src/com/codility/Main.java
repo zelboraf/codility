@@ -4,6 +4,7 @@ import com.codility.lesson_1_Iterations.BinaryGap;
 import com.codility.lesson_2_Arrays.CyclicRotation;
 import com.codility.lesson_2_Arrays.OddOccurrencesInArray;
 import com.codility.lesson_3.FrogJmp;
+import com.codility.lesson_3.PermMissingElem;
 
 public class Main {
 
@@ -42,18 +43,26 @@ public class Main {
 
         // Lesson 3
 
-        // Task 1:
+        // Task 1: FrogJmp  https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+//        int X = 10;
+//        int Y = 85;
+//        int D = 30;
+//        System.out.println("\nSolution:" + FrogJmp.Solution(X, Y, D));
 
-        // Task 2: FrogJmp  https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
-        int X = 10;
-        int Y = 85;
-        int D = 30;
-        System.out.println("\nSolution:" + FrogJmp.Solution(X, Y, D));
+        // Task 2: PermMissingElem  https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+//        int[] A = {2, 3, 1, 5};
+//        System.out.println("\nSolution: " + PermMissingElem.Solution(A));
 
         // Task 3: TapeEquilibrium
 //        int[] A = {3,1,2,4,3};
 //        int s = TapeEquilibrium.solution(A);
 //        System.out.println("\nSolution: " + s);
+
+
+        // Lesson 4
+
+        // Task 1: PermCheck    https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+
 
 
     }
