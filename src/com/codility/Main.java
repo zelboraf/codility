@@ -5,6 +5,8 @@ import com.codility.lesson_2_Arrays.CyclicRotation;
 import com.codility.lesson_2_Arrays.OddOccurrencesInArray;
 import com.codility.lesson_3.FrogJmp;
 import com.codility.lesson_3.PermMissingElem;
+import com.codility.lesson_3.TapeEquilibrium;
+import com.codility.lesson_4_counting_elements.PermCheck;
 
 public class Main {
 
@@ -62,6 +64,9 @@ public class Main {
         // Lesson 4
 
         // Task 1: PermCheck    https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+        int[] A = {4,1,3,2};
+        int s = PermCheck.solution(A);
+        System.out.println("\nSolution: " + s);
 
 
 
