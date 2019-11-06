@@ -72,7 +72,8 @@ public class Main {
         // Task 2: FrogRiverOne https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
         int X = 5;
         int[] A = {1,3,1,4,2,3,5,4};
-        System.out.println("\nSolution: " + FrogRiverOne.solution(X, A));
+        FrogRiverOne F = new FrogRiverOne();
+        System.out.println("\nSolution: " + F.solution(X, A));
 
 
     }
