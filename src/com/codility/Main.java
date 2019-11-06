@@ -1,13 +1,9 @@
 package com.codility;
 
-import com.codility.lesson_1_Iterations.BinaryGap;
-import com.codility.lesson_2_Arrays.CyclicRotation;
-import com.codility.lesson_2_Arrays.OddOccurrencesInArray;
-import com.codility.lesson_3.FrogJmp;
-import com.codility.lesson_3.PermMissingElem;
-import com.codility.lesson_3.TapeEquilibrium;
 import com.codility.lesson_4_counting_elements.FrogRiverOne;
-import com.codility.lesson_4_counting_elements.PermCheck;
+import com.codility.lesson_4_counting_elements.MaxCounters;
+
+import java.util.Arrays;
 
 public class Main {
 
@@ -70,12 +66,16 @@ public class Main {
 //        System.out.println("\nSolution: " + s);
 
         // Task 2: FrogRiverOne https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
-        int X = 5;
-        int[] A = {1,3,1,4,2,3,5,4};
-        FrogRiverOne F = new FrogRiverOne();
-        System.out.println("\nSolution: " + F.solution(X, A));
+//        int X = 5;
+//        int[] A = {1,3,1,4,2,3,5,4};
+//        FrogRiverOne F = new FrogRiverOne();
+//        System.out.println("\nSolution: " + F.solution(X, A));
 
-
+        // Task 3: MaxCounters  https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
+        int N = 5;
+        int[] A = {1,2,3,6,4,5,6,1,2};
+        MaxCounters M = new MaxCounters();
+        System.out.println("\nSolution: " + Arrays.toString(M.solution(N, A)));
     }
 }
 
