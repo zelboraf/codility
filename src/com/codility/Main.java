@@ -6,6 +6,7 @@ import com.codility.lesson_2_Arrays.OddOccurrencesInArray;
 import com.codility.lesson_3.FrogJmp;
 import com.codility.lesson_3.PermMissingElem;
 import com.codility.lesson_3.TapeEquilibrium;
+import com.codility.lesson_4_counting_elements.FrogRiverOne;
 import com.codility.lesson_4_counting_elements.PermCheck;
 
 public class Main {
@@ -64,10 +65,14 @@ public class Main {
         // Lesson 4
 
         // Task 1: PermCheck    https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
-        int[] A = {4,1,3,2};
-        int s = PermCheck.solution(A);
-        System.out.println("\nSolution: " + s);
+//        int[] A = {4,1,3,2};
+//        int s = PermCheck.solution(A);
+//        System.out.println("\nSolution: " + s);
 
+        // Task 2: FrogRiverOne https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+        int X = 5;
+        int[] A = {1,3,1,4,2,3,5,4};
+        System.out.println("\nSolution: " + FrogRiverOne.solution(X, A));
 
 
     }
