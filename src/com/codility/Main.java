@@ -2,6 +2,7 @@ package com.codility;
 
 import com.codility.lesson_4_counting_elements.FrogRiverOne;
 import com.codility.lesson_4_counting_elements.MaxCounters;
+import com.codility.lesson_4_counting_elements.MissingInteger;
 
 import java.util.Arrays;
 
@@ -72,10 +73,16 @@ public class Main {
 //        System.out.println("\nSolution: " + F.solution(X, A));
 
         // Task 3: MaxCounters  https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
-        int N = 5;
-        int[] A = {1,2,3,6,4,5,6,1,2};
-        MaxCounters M = new MaxCounters();
-        System.out.println("\nSolution: " + Arrays.toString(M.solution(N, A)));
+//        int N = 5;
+//        int[] A = {1,2,3,6,4,5,6,1,2};
+//        MaxCounters M = new MaxCounters();
+//        System.out.println("\nSolution: " + Arrays.toString(M.solution(N, A)));
+
+        // Task 4: MissingInteger   https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+//        int[] A = {-1,2,-5,2,2,3,1,7,2,4,5,6};
+        int[] A = {1,2,3};
+        MissingInteger M = new MissingInteger();
+        System.out.println("\nSolution: " + M.solution(A));
     }
 }
 
